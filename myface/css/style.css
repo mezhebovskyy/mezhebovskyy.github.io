@@ -1,3 +1,19 @@
+:root {
+  --base: #ffc600;
+  --padding: 3px;
+  --blur: 0px;
+  --height:350px;
+  --width:500px;
+}
+
+video {
+    padding: var(--padding);
+    background: var(--base);
+    filter: blur(var(--blur));
+    height: var(--height);
+    width: var(--width);
+}
+
 body {
   padding-top: 50px;
 }
@@ -38,11 +54,11 @@ section{
   width:75%;
 }
 
-video#videoElement{
+/*video#videoElement{
   width:100%;
   padding:3px;
   background-color: #666;
-}
+}*/
 
 
 section#feature{
